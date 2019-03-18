@@ -1,0 +1,26 @@
+{
+    "name": "blackcattools/yii2-firefly",
+    "type": "yii2-extension",
+
+    "description": "Debug using Firefox Console",
+    "keywords": ["yii2", "debug"],
+    "license": "GPL-3.0-or-later",
+    "support": {
+        "source": "https://github.com/blackcattools/yii2-firefly"
+    },
+    "authors": [
+        {
+            "name": "Luciano França",
+            "email": "BlackCatTools@protomail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "blackcattools\\firefly\\": ""
+        }
+    }
+}
